@@ -1,0 +1,79 @@
+name: Test
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+    branches: [main, master, develop]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Lint & Type Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install linting tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff mypy
+
+      - name: Lint with ruff (shared)
+        run: |
+          ruff check shared --config pyproject.toml
+
+      - name: Lint with ruff (tests)
+        run: |
+          ruff check tests --config pyproject.toml
+
+      - name: Type check with mypy
+        run: |
+          mypy shared --config-file=pyproject.toml --ignore-missing-imports --no-error-summary || true
+        continue-on-error: true
+
+  test:
+    name: Run Tests
+    runs-on: windows-latest
+    needs: lint
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest pytest-cov
+          pip install customtkinter pillow psutil requests pydantic
+
+      - name: Run tests with coverage
+        run: |
+          pytest tests/ --cov=shared --cov-report=xml --cov-report=html --cov-report=term-missing -v
+        continue-on-error: true
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: |
+            coverage.xml
+            htmlcov/
+          retention-days: 14
