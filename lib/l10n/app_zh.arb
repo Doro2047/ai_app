@@ -1,0 +1,2170 @@
+﻿{
+  "@@locale": "zh",
+
+  "appTitle": "AI Apps 工具集",
+  "@appTitle": {
+    "description": "应用标题"
+  },
+
+  "home": "首页",
+  "@home": {
+    "description": "首页导航标签"
+  },
+
+  "settings": "设置",
+  "@settings": {
+    "description": "设置页面标题"
+  },
+
+  "loading": "加载中...",
+  "@loading": {
+    "description": "加载状态提示"
+  },
+
+  "error": "错误",
+  "@error": {
+    "description": "错误提示"
+  },
+
+  "retry": "重试",
+  "@retry": {
+    "description": "重试操作"
+  },
+
+  "cancel": "取消",
+  "@cancel": {
+    "description": "取消操作"
+  },
+
+  "confirm": "确认",
+  "@confirm": {
+    "description": "确认操作"
+  },
+
+  "delete": "删除",
+  "@delete": {
+    "description": "删除操作"
+  },
+
+  "save": "保存",
+  "@save": {
+    "description": "保存操作"
+  },
+
+  "edit": "编辑",
+  "@edit": {
+    "description": "编辑操作"
+  },
+
+  "search": "搜索",
+  "@search": {
+    "description": "搜索操作"
+  },
+
+  "noData": "暂无数据",
+  "@noData": {
+    "description": "空数据提示"
+  },
+
+  "networkError": "网络错误",
+  "@networkError": {
+    "description": "网络错误提示"
+  },
+
+  "pageNotFound": "页面未找到",
+  "@pageNotFound": {
+    "description": "404页面提示"
+  },
+
+  "backToHome": "返回首页",
+  "@backToHome": {
+    "description": "返回首页按钮"
+  },
+
+  "ok": "确定",
+  "@ok": {
+    "description": "确定按钮"
+  },
+
+  "close": "关闭",
+  "@close": {
+    "description": "关闭操作"
+  },
+
+  "add": "添加",
+  "@add": {
+    "description": "添加操作"
+  },
+
+  "refresh": "刷新",
+  "@refresh": {
+    "description": "刷新操作"
+  },
+
+  "select_all": "全选",
+  "@select_all": {
+    "description": "全选操作"
+  },
+
+  "export": "导出",
+  "@export": {
+    "description": "导出操作"
+  },
+
+  "import": "导入",
+  "@import": {
+    "description": "导入操作"
+  },
+
+  "ready": "就绪",
+  "@ready": {
+    "description": "就绪状态"
+  },
+
+  "warning": "警告",
+  "@warning": {
+    "description": "警告提示"
+  },
+
+  "success": "成功",
+  "@success": {
+    "description": "成功提示"
+  },
+
+  "info": "信息",
+  "@info": {
+    "description": "信息提示"
+  },
+
+  "yes": "是",
+  "@yes": {
+    "description": "肯定回答"
+  },
+
+  "no": "否",
+  "@no": {
+    "description": "否定回答"
+  },
+
+  "apply": "应用",
+  "@apply": {
+    "description": "应用操作"
+  },
+
+  "tools": "工具",
+  "@tools": {
+    "description": "工具分类"
+  },
+
+  "help": "帮助",
+  "@help": {
+    "description": "帮助"
+  },
+
+  "about": "关于",
+  "@about": {
+    "description": "关于页面"
+  },
+
+  "exit": "退出",
+  "@exit": {
+    "description": "退出操作"
+  },
+
+  "file": "文件",
+  "@file": {
+    "description": "文件"
+  },
+
+  "view": "视图",
+  "@view": {
+    "description": "视图"
+  },
+
+  "language": "语言",
+  "@language": {
+    "description": "语言设置"
+  },
+
+  "theme": "主题",
+  "@theme": {
+    "description": "主题设置"
+  },
+
+  "light_mode": "浅色模式",
+  "@light_mode": {
+    "description": "浅色主题模式"
+  },
+
+  "dark_mode": "深色模式",
+  "@dark_mode": {
+    "description": "深色主题模式"
+  },
+
+  "follow_system": "跟随系统",
+  "@follow_system": {
+    "description": "跟随系统主题"
+  },
+
+  "recent": "最近使用",
+  "@recent": {
+    "description": "最近使用"
+  },
+
+  "favorites": "收藏",
+  "@favorites": {
+    "description": "收藏"
+  },
+
+  "all": "全部",
+  "@all": {
+    "description": "全部"
+  },
+
+  "name": "名称",
+  "@name": {
+    "description": "名称字段"
+  },
+
+  "description": "描述",
+  "@description": {
+    "description": "描述字段"
+  },
+
+  "status": "状态",
+  "@status": {
+    "description": "状态字段"
+  },
+
+  "action": "操作",
+  "@action": {
+    "description": "操作字段"
+  },
+
+  "time": "时间",
+  "@time": {
+    "description": "时间字段"
+  },
+
+  "size": "大小",
+  "@size": {
+    "description": "大小字段"
+  },
+
+  "type": "类型",
+  "@type": {
+    "description": "类型字段"
+  },
+
+  "path": "路径",
+  "@path": {
+    "description": "路径字段"
+  },
+
+  "progress": "进度",
+  "@progress": {
+    "description": "进度"
+  },
+
+  "completed": "完成",
+  "@completed": {
+    "description": "完成状态"
+  },
+
+  "failed": "失败",
+  "@failed": {
+    "description": "失败状态"
+  },
+
+  "version": "版本",
+  "@version": {
+    "description": "版本信息"
+  },
+
+  "update": "更新",
+  "@update": {
+    "description": "更新操作"
+  },
+
+  "download": "下载",
+  "@download": {
+    "description": "下载操作"
+  },
+
+  "install": "安装",
+  "@install": {
+    "description": "安装操作"
+  },
+
+  "check_update": "检查更新",
+  "@check_update": {
+    "description": "检查更新操作"
+  },
+
+  "no_update": "暂无更新",
+  "@no_update": {
+    "description": "无更新可用"
+  },
+
+  "new_version_available": "新版本可用",
+  "@new_version_available": {
+    "description": "有新版本"
+  },
+
+  "already_latest": "当前已是最新版本",
+  "@already_latest": {
+    "description": "已是最新版本"
+  },
+
+  "hello_name": "你好，{name}！",
+  "@hello_name": {
+    "description": "带名字的问候语",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "用户"
+      }
+    }
+  },
+
+  "item_count": "{count} 个项目",
+  "@item_count": {
+    "description": "项目数量",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "migration_title": "数据迁移",
+  "@migration_title": {
+    "description": "数据迁移标题"
+  },
+
+  "migration_detecting": "正在检测旧版数据...",
+  "@migration_detecting": {
+    "description": "检测旧版数据中"
+  },
+
+  "migration_found": "发现旧版数据，是否迁移？",
+  "@migration_found": {
+    "description": "发现旧版数据提示"
+  },
+
+  "migration_in_progress": "正在迁移数据...",
+  "@migration_in_progress": {
+    "description": "迁移进行中"
+  },
+
+  "migration_success": "数据迁移完成",
+  "@migration_success": {
+    "description": "迁移成功"
+  },
+
+  "migration_failed": "数据迁移失败",
+  "@migration_failed": {
+    "description": "迁移失败"
+  },
+
+  "migration_backup": "正在备份旧版数据...",
+  "@migration_backup": {
+    "description": "备份旧版数据中"
+  },
+
+  "migration_skip": "跳过迁移",
+  "@migration_skip": {
+    "description": "跳过迁移操作"
+  },
+
+  "migration_start": "开始迁移",
+  "@migration_start": {
+    "description": "开始迁移操作"
+  },
+
+  "migration_config": "迁移配置",
+  "@migration_config": {
+    "description": "迁移配置项"
+  },
+
+  "migration_programs": "迁移程序列表",
+  "@migration_programs": {
+    "description": "迁移程序列表项"
+  },
+
+  "migration_categories": "迁移分类",
+  "@migration_categories": {
+    "description": "迁移分类项"
+  },
+
+  "migration_themes": "迁移主题",
+  "@migration_themes": {
+    "description": "迁移主题项"
+  },
+
+  "migration_verify": "校验迁移数据...",
+  "@migration_verify": {
+    "description": "校验迁移数据中"
+  },
+
+  "migration_verify_pass": "迁移校验通过",
+  "@migration_verify_pass": {
+    "description": "校验通过"
+  },
+
+  "migration_verify_fail": "迁移校验失败，数据条目不一致",
+  "@migration_verify_fail": {
+    "description": "校验失败"
+  },
+
+  "featureInProgress": "功能开发中...",
+  "@featureInProgress": {
+    "description": "功能开发中提示"
+  },
+
+  "tool_freeToolbox": "FREE工具箱",
+  "@tool_freeToolbox": {
+    "description": "FREE工具箱名称"
+  },
+
+  "tool_apkInstaller": "APK批量安装工具",
+  "@tool_apkInstaller": {
+    "description": "APK批量安装工具名称"
+  },
+
+  "tool_fileDedup": "批量文件查重清理工具",
+  "@tool_fileDedup": {
+    "description": "批量文件查重清理工具名称"
+  },
+
+  "tool_extensionChanger": "批量扩展名修改器",
+  "@tool_extensionChanger": {
+    "description": "批量扩展名修改器名称"
+  },
+
+  "tool_fileRenamer": "批量重命名工具",
+  "@tool_fileRenamer": {
+    "description": "批量重命名工具名称"
+  },
+
+  "tool_fileScanner": "文件扫描器",
+  "@tool_fileScanner": {
+    "description": "文件扫描器名称"
+  },
+
+  "tool_fileMover": "文件移动工具",
+  "@tool_fileMover": {
+    "description": "文件移动工具名称"
+  },
+
+  "tool_systemControl": "系统时间管理与设备控制工具",
+  "@tool_systemControl": {
+    "description": "系统时间管理与设备控制工具名称"
+  },
+
+  "tool_bookmarkManager": "Edge书签管理器",
+  "@tool_bookmarkManager": {
+    "description": "Edge书签管理器名称"
+  },
+
+  "tool_imageClassifier": "ImageClassifier",
+  "@tool_imageClassifier": {
+    "description": "ImageClassifier名称"
+  },
+
+  "toolDesc_apkInstaller": "批量安装 APK 应用文件",
+  "@toolDesc_apkInstaller": {
+    "description": "APK批量安装工具描述"
+  },
+
+  "toolDesc_fileDedup": "扫描并删除重复文件，释放磁盘空间",
+  "@toolDesc_fileDedup": {
+    "description": "批量文件查重清理工具描述"
+  },
+
+  "toolDesc_extensionChanger": "批量修改文件扩展名",
+  "@toolDesc_extensionChanger": {
+    "description": "批量扩展名修改器描述"
+  },
+
+  "toolDesc_fileRenamer": "按照规则批量重命名文件",
+  "@toolDesc_fileRenamer": {
+    "description": "批量重命名工具描述"
+  },
+
+  "toolDesc_fileScanner": "扫描目录文件并统计信息",
+  "@toolDesc_fileScanner": {
+    "description": "文件扫描器描述"
+  },
+
+  "toolDesc_fileMover": "按照规则批量移动文件到目标目录",
+  "@toolDesc_fileMover": {
+    "description": "文件移动工具描述"
+  },
+
+  "toolDesc_systemControl": "同步系统时间和控制设备状态",
+  "@toolDesc_systemControl": {
+    "description": "系统时间管理与设备控制工具描述"
+  },
+
+  "toolDesc_bookmarkManager": "管理浏览器书签",
+  "@toolDesc_bookmarkManager": {
+    "description": "Edge书签管理器描述"
+  },
+
+  "toolDesc_imageClassifier": "使用 AI 对图片进行分类整理",
+  "@toolDesc_imageClassifier": {
+    "description": "ImageClassifier描述"
+  },
+
+  "toolDesc_toolbox": "FREE 综合工具箱",
+  "@toolDesc_toolbox": {
+    "description": "FREE工具箱描述"
+  },
+
+  "toolDesc_default": "工具",
+  "@toolDesc_default": {
+    "description": "默认工具描述"
+  },
+
+  "category_fileManagement": "文件管理",
+  "@category_fileManagement": {
+    "description": "文件管理分类"
+  },
+
+  "category_systemTools": "系统工具",
+  "@category_systemTools": {
+    "description": "系统工具分类"
+  },
+
+  "category_other": "其他",
+  "@category_other": {
+    "description": "其他分类"
+  },
+
+  "appCenter_noTools": "暂无工具",
+  "@appCenter_noTools": {
+    "description": "暂无工具提示"
+  },
+
+  "appCenter_noToolsDesc": "该分类下没有可用工具",
+  "@appCenter_noToolsDesc": {
+    "description": "暂无工具描述"
+  },
+
+  "appCenter_globalSearch": "全局搜索",
+  "@appCenter_globalSearch": {
+    "description": "全局搜索按钮提示"
+  },
+
+  "appCenter_useCount": "使用 {count} 次",
+  "@appCenter_useCount": {
+    "description": "使用次数",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "browse": "浏览",
+  "@browse": {
+    "description": "浏览按钮"
+  },
+
+  "scan": "扫描",
+  "@scan": {
+    "description": "扫描按钮"
+  },
+
+  "preview": "预览",
+  "@preview": {
+    "description": "预览按钮"
+  },
+
+  "execute": "执行",
+  "@execute": {
+    "description": "执行按钮"
+  },
+
+  "confirmExecute": "确定执行",
+  "@confirmExecute": {
+    "description": "确定执行按钮"
+  },
+
+  "pause": "暂停",
+  "@pause": {
+    "description": "暂停按钮"
+  },
+
+  "monitor": "监控",
+  "@monitor": {
+    "description": "监控按钮"
+  },
+
+  "scanning": "正在扫描...",
+  "@scanning": {
+    "description": "正在扫描状态"
+  },
+
+  "executingModification": "正在执行修改...",
+  "@executingModification": {
+    "description": "正在执行修改状态"
+  },
+
+  "syncing": "正在同步...",
+  "@syncing": {
+    "description": "正在同步状态"
+  },
+
+  "togglingDevice": "正在切换设备状态...",
+  "@togglingDevice": {
+    "description": "正在切换设备状态"
+  },
+
+  "executingPowerAction": "正在执行电源操作...",
+  "@executingPowerAction": {
+    "description": "正在执行电源操作状态"
+  },
+
+  "fileDedup_selectDirectoryFirst": "请先选择要扫描的目录",
+  "@fileDedup_selectDirectoryFirst": {
+    "description": "请先选择要扫描的目录"
+  },
+
+  "fileDedup_selectFilesToDelete": "请先选择要删除的文件",
+  "@fileDedup_selectFilesToDelete": {
+    "description": "请先选择要删除的文件"
+  },
+
+  "fileDedup_noSelectedFiles": "没有选中的文件",
+  "@fileDedup_noSelectedFiles": {
+    "description": "没有选中的文件"
+  },
+
+  "fileDedup_scanFailed": "扫描失败",
+  "@fileDedup_scanFailed": {
+    "description": "扫描失败"
+  },
+
+  "fileDedup_deleteFailed": "删除失败",
+  "@fileDedup_deleteFailed": {
+    "description": "删除失败"
+  },
+
+  "fileDedup_confirmDelete": "确认删除",
+  "@fileDedup_confirmDelete": {
+    "description": "确认删除对话框标题"
+  },
+
+  "fileDedup_confirmDeleteMessage": "确定要删除选中的 {count} 个文件吗？\n此操作不可撤销。",
+  "@fileDedup_confirmDeleteMessage": {
+    "description": "确认删除对话框内容",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "fileDedup_selectedDirectories": "已选择 {count} 个目录",
+  "@fileDedup_selectedDirectories": {
+    "description": "已选择目录数量",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "fileDedup_configUpdated": "扫描配置已更新",
+  "@fileDedup_configUpdated": {
+    "description": "扫描配置已更新"
+  },
+
+  "fileDedup_startScan": "开始扫描文件...",
+  "@fileDedup_startScan": {
+    "description": "开始扫描文件"
+  },
+
+  "fileDedup_scanCancelled": "扫描已取消",
+  "@fileDedup_scanCancelled": {
+    "description": "扫描已取消"
+  },
+
+  "fileDedup_scanComplete": "扫描完成",
+  "@fileDedup_scanComplete": {
+    "description": "扫描完成"
+  },
+
+  "fileDedup_startDelete": "开始删除 {count} 个文件...",
+  "@fileDedup_startDelete": {
+    "description": "开始删除文件",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "fileDedup_deleteComplete": "删除完成",
+  "@fileDedup_deleteComplete": {
+    "description": "删除完成"
+  },
+
+  "fileDedup_noDirectorySelected": "尚未选择任何目录",
+  "@fileDedup_noDirectorySelected": {
+    "description": "尚未选择任何目录"
+  },
+
+  "fileDedup_removeDirectory": "移除此目录",
+  "@fileDedup_removeDirectory": {
+    "description": "移除此目录提示"
+  },
+
+  "fileDedup_addDirectory": "添加目录",
+  "@fileDedup_addDirectory": {
+    "description": "添加目录按钮"
+  },
+
+  "fileDedup_clear": "清空",
+  "@fileDedup_clear": {
+    "description": "清空按钮"
+  },
+
+  "fileDedup_directorySelection": "目录选择",
+  "@fileDedup_directorySelection": {
+    "description": "目录选择区标题"
+  },
+
+  "fileDedup_scanConfig": "扫描配置",
+  "@fileDedup_scanConfig": {
+    "description": "扫描配置区标题"
+  },
+
+  "fileDedup_hashAlgorithm": "哈希算法:",
+  "@fileDedup_hashAlgorithm": {
+    "description": "哈希算法标签"
+  },
+
+  "fileDedup_minFileSize": "最小文件大小:",
+  "@fileDedup_minFileSize": {
+    "description": "最小文件大小标签"
+  },
+
+  "fileDedup_minFileSizeHint": "0 (不限制)",
+  "@fileDedup_minFileSizeHint": {
+    "description": "最小文件大小输入提示"
+  },
+
+  "fileDedup_bytes": "字节",
+  "@fileDedup_bytes": {
+    "description": "字节单位"
+  },
+
+  "fileDedup_recursiveScan": "递归扫描子目录",
+  "@fileDedup_recursiveScan": {
+    "description": "递归扫描子目录开关"
+  },
+
+  "fileDedup_startScanBtn": "开始扫描",
+  "@fileDedup_startScanBtn": {
+    "description": "开始扫描按钮"
+  },
+
+  "fileDedup_cancelScanBtn": "取消扫描",
+  "@fileDedup_cancelScanBtn": {
+    "description": "取消扫描按钮"
+  },
+
+  "fileDedup_deleteSelected": "删除选中 ({count})",
+  "@fileDedup_deleteSelected": {
+    "description": "删除选中按钮",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "fileDedup_scanningStatus": "扫描中",
+  "@fileDedup_scanningStatus": {
+    "description": "扫描中状态"
+  },
+
+  "fileDedup_deletingStatus": "正在删除...",
+  "@fileDedup_deletingStatus": {
+    "description": "正在删除状态"
+  },
+
+  "fileDedup_duplicateGroups": "{count} 组重复文件",
+  "@fileDedup_duplicateGroups": {
+    "description": "重复文件组数",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "fileDedup_scanResult": "扫描结果",
+  "@fileDedup_scanResult": {
+    "description": "扫描结果标题"
+  },
+
+  "fileDedup_scannedFiles": "扫描文件",
+  "@fileDedup_scannedFiles": {
+    "description": "扫描文件标签"
+  },
+
+  "fileDedup_duplicateGroupsCount": "重复组数",
+  "@fileDedup_duplicateGroupsCount": {
+    "description": "重复组数标签"
+  },
+
+  "fileDedup_duplicateFiles": "重复文件",
+  "@fileDedup_duplicateFiles": {
+    "description": "重复文件标签"
+  },
+
+  "fileDedup_releasableSpace": "可释放空间",
+  "@fileDedup_releasableSpace": {
+    "description": "可释放空间标签"
+  },
+
+  "fileDedup_duplicateFileList": "重复文件列表",
+  "@fileDedup_duplicateFileList": {
+    "description": "重复文件列表标题"
+  },
+
+  "operationLog": "操作日志",
+  "@operationLog": {
+    "description": "操作日志标题"
+  },
+
+  "noLogs": "暂无日志",
+  "@noLogs": {
+    "description": "暂无日志提示"
+  },
+
+  "extChanger_directorySelection": "目录选择",
+  "@extChanger_directorySelection": {
+    "description": "扩展名修改器目录选择标题"
+  },
+
+  "extChanger_directoryHint": "请选择要修改扩展名的文件目录",
+  "@extChanger_directoryHint": {
+    "description": "扩展名修改器目录选择提示"
+  },
+
+  "extChanger_extensionRules": "扩展名规则",
+  "@extChanger_extensionRules": {
+    "description": "扩展名规则标题"
+  },
+
+  "extChanger_noRules": "暂无规则，点击 + 添加扩展名修改规则",
+  "@extChanger_noRules": {
+    "description": "暂无规则提示"
+  },
+
+  "extChanger_addRule": "添加规则",
+  "@extChanger_addRule": {
+    "description": "添加规则按钮提示"
+  },
+
+  "extChanger_editRule": "编辑规则",
+  "@extChanger_editRule": {
+    "description": "编辑规则标题"
+  },
+
+  "extChanger_originalExt": "原扩展名（如 .txt 或留空表示无扩展名）",
+  "@extChanger_originalExt": {
+    "description": "原扩展名输入标签"
+  },
+
+  "extChanger_newExt": "新扩展名（如 .md）",
+  "@extChanger_newExt": {
+    "description": "新扩展名输入标签"
+  },
+
+  "extChanger_recursiveSubdirs": "递归应用到子目录",
+  "@extChanger_recursiveSubdirs": {
+    "description": "递归应用到子目录开关"
+  },
+
+  "extChanger_newExtRequired": "新扩展名不能为空",
+  "@extChanger_newExtRequired": {
+    "description": "新扩展名不能为空提示"
+  },
+
+  "extChanger_noExtension": "(无扩展名)",
+  "@extChanger_noExtension": {
+    "description": "无扩展名显示"
+  },
+
+  "extChanger_previewResult": "预览结果",
+  "@extChanger_previewResult": {
+    "description": "预览结果标题"
+  },
+
+  "extChanger_pending": "待处理",
+  "@extChanger_pending": {
+    "description": "待处理状态"
+  },
+
+  "extChanger_confirmExecute": "确认执行",
+  "@extChanger_confirmExecute": {
+    "description": "确认执行对话框标题"
+  },
+
+  "extChanger_confirmExecuteMessage": "即将修改 {count} 个文件的扩展名，此操作不可撤销。确定要继续吗？",
+  "@extChanger_confirmExecuteMessage": {
+    "description": "确认执行对话框内容",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "extChanger_noPreview": "暂无预览",
+  "@extChanger_noPreview": {
+    "description": "暂无预览"
+  },
+
+  "extChanger_scanThenPreview": "请先扫描目录，然后添加规则并点击预览",
+  "@extChanger_scanThenPreview": {
+    "description": "请先扫描目录提示"
+  },
+
+  "extChanger_addRuleThenPreview": "请添加规则并点击预览按钮",
+  "@extChanger_addRuleThenPreview": {
+    "description": "请添加规则并预览提示"
+  },
+
+  "extChanger_generatingPreview": "正在生成预览...",
+  "@extChanger_generatingPreview": {
+    "description": "正在生成预览"
+  },
+
+  "extChanger_scannedFiles": "已扫描 {count} 个文件",
+  "@extChanger_scannedFiles": {
+    "description": "已扫描文件数",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "extChanger_fileCount": "{count} 个文件",
+  "@extChanger_fileCount": {
+    "description": "文件数量",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "sysControl_timeSync": "时间同步",
+  "@sysControl_timeSync": {
+    "description": "时间同步标签页"
+  },
+
+  "sysControl_deviceControl": "设备控制",
+  "@sysControl_deviceControl": {
+    "description": "设备控制标签页"
+  },
+
+  "sysControl_systemOperation": "系统操作",
+  "@sysControl_systemOperation": {
+    "description": "系统操作标签页"
+  },
+
+  "sysControl_currentSystemTime": "当前系统时间",
+  "@sysControl_currentSystemTime": {
+    "description": "当前系统时间标题"
+  },
+
+  "sysControl_autoSync": "自动同步",
+  "@sysControl_autoSync": {
+    "description": "自动同步开关"
+  },
+
+  "sysControl_ntpServer": "NTP 服务器",
+  "@sysControl_ntpServer": {
+    "description": "NTP服务器标题"
+  },
+
+  "sysControl_refreshServerList": "刷新服务器列表",
+  "@sysControl_refreshServerList": {
+    "description": "刷新服务器列表提示"
+  },
+
+  "sysControl_selectServer": "选择此服务器",
+  "@sysControl_selectServer": {
+    "description": "选择此服务器提示"
+  },
+
+  "sysControl_sync": "同步",
+  "@sysControl_sync": {
+    "description": "同步按钮"
+  },
+
+  "sysControl_manualSetTime": "手动设置时间",
+  "@sysControl_manualSetTime": {
+    "description": "手动设置时间标题"
+  },
+
+  "sysControl_hour": "时",
+  "@sysControl_hour": {
+    "description": "小时输入标签"
+  },
+
+  "sysControl_minute": "分",
+  "@sysControl_minute": {
+    "description": "分钟输入标签"
+  },
+
+  "sysControl_setTime": "设置时间",
+  "@sysControl_setTime": {
+    "description": "设置时间按钮"
+  },
+
+  "sysControl_confirmSetTime": "确认设置系统时间",
+  "@sysControl_confirmSetTime": {
+    "description": "确认设置系统时间对话框标题"
+  },
+
+  "sysControl_confirmSetTimeMessage": "确定要将系统时间设置为：",
+  "@sysControl_confirmSetTimeMessage": {
+    "description": "确认设置系统时间对话框内容"
+  },
+
+  "sysControl_timeChangeWarning": "这可能会影响系统日志和证书验证。",
+  "@sysControl_timeChangeWarning": {
+    "description": "时间变更警告"
+  },
+
+  "sysControl_syncResult": "同步结果",
+  "@sysControl_syncResult": {
+    "description": "同步结果标题"
+  },
+
+  "sysControl_server": "服务器",
+  "@sysControl_server": {
+    "description": "服务器标签"
+  },
+
+  "sysControl_localTime": "本地时间",
+  "@sysControl_localTime": {
+    "description": "本地时间标签"
+  },
+
+  "sysControl_serverTime": "服务器时间",
+  "@sysControl_serverTime": {
+    "description": "服务器时间标签"
+  },
+
+  "sysControl_timeOffset": "时间偏移",
+  "@sysControl_timeOffset": {
+    "description": "时间偏移标签"
+  },
+
+  "sysControl_clearLog": "清除日志",
+  "@sysControl_clearLog": {
+    "description": "清除日志提示"
+  },
+
+  "sysControl_timeSyncRestriction": "时间同步功能限制",
+  "@sysControl_timeSyncRestriction": {
+    "description": "时间同步功能限制标题"
+  },
+
+  "sysControl_timeSyncRestrictionDesc": "Android 平台不支持设置系统时间，请在系统设置中同步网络时间。",
+  "@sysControl_timeSyncRestrictionDesc": {
+    "description": "时间同步功能限制描述"
+  },
+
+  "sysControl_deviceSwitches": "设备开关",
+  "@sysControl_deviceSwitches": {
+    "description": "设备开关标题"
+  },
+
+  "sysControl_wifiSubtitle": "无线网络连接",
+  "@sysControl_wifiSubtitle": {
+    "description": "WiFi副标题"
+  },
+
+  "sysControl_bluetoothSubtitle": "蓝牙设备连接",
+  "@sysControl_bluetoothSubtitle": {
+    "description": "蓝牙副标题"
+  },
+
+  "sysControl_ethernetSubtitle": "有线网络连接",
+  "@sysControl_ethernetSubtitle": {
+    "description": "以太网副标题"
+  },
+
+  "sysControl_deviceList": "设备列表",
+  "@sysControl_deviceList": {
+    "description": "设备列表标题"
+  },
+
+  "sysControl_refreshDeviceList": "刷新设备列表",
+  "@sysControl_refreshDeviceList": {
+    "description": "刷新设备列表提示"
+  },
+
+  "sysControl_noDeviceDetected": "未检测到设备",
+  "@sysControl_noDeviceDetected": {
+    "description": "未检测到设备提示"
+  },
+
+  "sysControl_confirmDeviceAction": "确认设备操作",
+  "@sysControl_confirmDeviceAction": {
+    "description": "确认设备操作对话框标题"
+  },
+
+  "sysControl_confirmToggleDevice": "确定要{action} {device} 吗？",
+  "@sysControl_confirmToggleDevice": {
+    "description": "确认切换设备状态",
+    "placeholders": {
+      "action": {
+        "type": "String",
+        "example": "启用"
+      },
+      "device": {
+        "type": "String",
+        "example": "WiFi"
+      }
+    }
+  },
+
+  "sysControl_enable": "启用",
+  "@sysControl_enable": {
+    "description": "启用操作"
+  },
+
+  "sysControl_disable": "禁用",
+  "@sysControl_disable": {
+    "description": "禁用操作"
+  },
+
+  "sysControl_deviceControlRestriction": "设备控制功能限制",
+  "@sysControl_deviceControlRestriction": {
+    "description": "设备控制功能限制标题"
+  },
+
+  "sysControl_deviceControlRestrictionDesc": "Android 平台的设备控制需要 Platform Channel 支持。",
+  "@sysControl_deviceControlRestrictionDesc": {
+    "description": "设备控制功能限制描述"
+  },
+
+  "sysControl_shutdown": "关机",
+  "@sysControl_shutdown": {
+    "description": "关机操作"
+  },
+
+  "sysControl_restart": "重启",
+  "@sysControl_restart": {
+    "description": "重启操作"
+  },
+
+  "sysControl_sleep": "睡眠",
+  "@sysControl_sleep": {
+    "description": "睡眠操作"
+  },
+
+  "sysControl_hibernate": "休眠",
+  "@sysControl_hibernate": {
+    "description": "休眠操作"
+  },
+
+  "sysControl_lock": "锁定",
+  "@sysControl_lock": {
+    "description": "锁定操作"
+  },
+
+  "sysControl_powerWarning": "注意：执行关机或重启操作前，请保存所有未保存的工作。",
+  "@sysControl_powerWarning": {
+    "description": "电源操作警告"
+  },
+
+  "sysControl_confirmAction": "确认操作",
+  "@sysControl_confirmAction": {
+    "description": "确认操作对话框标题"
+  },
+
+  "sysControl_systemOperationRestriction": "系统操作功能限制",
+  "@sysControl_systemOperationRestriction": {
+    "description": "系统操作功能限制标题"
+  },
+
+  "sysControl_systemOperationRestrictionDesc": "Android 平台不支持关机、重启等系统操作。",
+  "@sysControl_systemOperationRestrictionDesc": {
+    "description": "系统操作功能限制描述"
+  },
+
+  "fileMover_sourceDirectory": "源目录",
+  "@fileMover_sourceDirectory": {
+    "description": "源目录标题"
+  },
+
+  "fileMover_targetDirectory": "目标目录",
+  "@fileMover_targetDirectory": {
+    "description": "目标目录标题"
+  },
+
+  "fileMover_sourceDirHint": "请选择要移动文件的源目录",
+  "@fileMover_sourceDirHint": {
+    "description": "源目录选择提示"
+  },
+
+  "fileMover_targetDirHint": "请选择文件移动的目标目录（可选）",
+  "@fileMover_targetDirHint": {
+    "description": "目标目录选择提示"
+  },
+
+  "fileMover_moveRules": "移动规则",
+  "@fileMover_moveRules": {
+    "description": "移动规则标题"
+  },
+
+  "fileMover_noRules": "暂无规则，点击 + 添加移动规则（或仅使用目标目录）",
+  "@fileMover_noRules": {
+    "description": "暂无规则提示"
+  },
+
+  "fileMover_executingMove": "正在执行移动...",
+  "@fileMover_executingMove": {
+    "description": "正在执行移动状态"
+  },
+
+  "fileMover_confirmMoveMessage": "即将移动 {count} 个文件，此操作不可撤销。确定要继续吗？",
+  "@fileMover_confirmMoveMessage": {
+    "description": "确认移动对话框内容",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "fileRenamer_directorySelection": "目录选择",
+  "@fileRenamer_directorySelection": {
+    "description": "重命名工具目录选择标题"
+  },
+
+  "fileRenamer_directoryHint": "请选择要重命名文件的目录",
+  "@fileRenamer_directoryHint": {
+    "description": "重命名工具目录选择提示"
+  },
+
+  "fileRenamer_ruleSettings": "规则设置",
+  "@fileRenamer_ruleSettings": {
+    "description": "规则设置标题"
+  },
+
+  "fileRenamer_noRules": "暂无规则，点击 + 添加规则或从模板加载",
+  "@fileRenamer_noRules": {
+    "description": "暂无规则提示"
+  },
+
+  "fileRenamer_saveAsTemplate": "保存当前规则为模板",
+  "@fileRenamer_saveAsTemplate": {
+    "description": "保存当前规则为模板"
+  },
+
+  "fileRenamer_saveTemplate": "保存模板",
+  "@fileRenamer_saveTemplate": {
+    "description": "保存模板对话框标题"
+  },
+
+  "fileRenamer_templateName": "模板名称",
+  "@fileRenamer_templateName": {
+    "description": "模板名称输入标签"
+  },
+
+  "fileRenamer_templateDesc": "模板描述",
+  "@fileRenamer_templateDesc": {
+    "description": "模板描述输入标签"
+  },
+
+  "fileRenamer_executingRename": "正在执行重命名...",
+  "@fileRenamer_executingRename": {
+    "description": "正在执行重命名状态"
+  },
+
+  "fileRenamer_confirmRenameMessage": "即将重命名 {count} 个文件，此操作不可撤销。确定要继续吗？",
+  "@fileRenamer_confirmRenameMessage": {
+    "description": "确认重命名对话框内容",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "apkInstaller_deviceList": "设备列表",
+  "@apkInstaller_deviceList": {
+    "description": "设备列表标题"
+  },
+
+  "apkInstaller_refreshDeviceList": "刷新设备列表",
+  "@apkInstaller_refreshDeviceList": {
+    "description": "刷新设备列表提示"
+  },
+
+  "apkInstaller_noDevice": "未发现已连接的设备\n请使用 USB 连接设备或启动无线调试",
+  "@apkInstaller_noDevice": {
+    "description": "未发现设备提示"
+  },
+
+  "apkInstaller_apkFiles": "APK 文件",
+  "@apkInstaller_apkFiles": {
+    "description": "APK文件标题"
+  },
+
+  "apkInstaller_noApkFiles": "尚未添加 APK 文件\n点击下方按钮选择文件",
+  "@apkInstaller_noApkFiles": {
+    "description": "尚未添加APK文件提示"
+  },
+
+  "apkInstaller_installOptions": "安装选项",
+  "@apkInstaller_installOptions": {
+    "description": "安装选项标题"
+  },
+
+  "apkInstaller_replaceInstall": "覆盖安装",
+  "@apkInstaller_replaceInstall": {
+    "description": "覆盖安装开关"
+  },
+
+  "apkInstaller_replaceInstallDesc": "如果应用已存在，将覆盖原有版本（-r 参数）",
+  "@apkInstaller_replaceInstallDesc": {
+    "description": "覆盖安装描述"
+  },
+
+  "apkInstaller_allowDowngrade": "允许降级安装",
+  "@apkInstaller_allowDowngrade": {
+    "description": "允许降级安装开关"
+  },
+
+  "apkInstaller_allowDowngradeDesc": "允许安装比当前版本更低的版本（-d 参数）",
+  "@apkInstaller_allowDowngradeDesc": {
+    "description": "允许降级安装描述"
+  },
+
+  "apkInstaller_cancelInstall": "取消安装",
+  "@apkInstaller_cancelInstall": {
+    "description": "取消安装按钮"
+  },
+
+  "apkInstaller_startInstall": "开始安装 ({count})",
+  "@apkInstaller_startInstall": {
+    "description": "开始安装按钮",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "apkInstaller_installProgress": "安装进度: {percent}%",
+  "@apkInstaller_installProgress": {
+    "description": "安装进度",
+    "placeholders": {
+      "percent": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "apkInstaller_installResult": "安装结果将在此显示",
+  "@apkInstaller_installResult": {
+    "description": "安装结果占位提示"
+  },
+
+  "apkInstaller_installStats": "安装统计",
+  "@apkInstaller_installStats": {
+    "description": "安装统计标题"
+  },
+
+  "apkInstaller_total": "总计",
+  "@apkInstaller_total": {
+    "description": "总计标签"
+  },
+
+  "apkInstaller_successCount": "成功",
+  "@apkInstaller_successCount": {
+    "description": "成功标签"
+  },
+
+  "apkInstaller_failedCount": "失败",
+  "@apkInstaller_failedCount": {
+    "description": "失败标签"
+  },
+
+  "apkInstaller_totalDuration": "总耗时",
+  "@apkInstaller_totalDuration": {
+    "description": "总耗时标签"
+  },
+
+  "apkInstaller_installSuccess": "安装成功",
+  "@apkInstaller_installSuccess": {
+    "description": "安装成功提示"
+  },
+
+  "apkInstaller_runLog": "运行日志",
+  "@apkInstaller_runLog": {
+    "description": "运行日志标题"
+  },
+
+  "apkInstaller_preparing": "准备中...",
+  "@apkInstaller_preparing": {
+    "description": "准备中状态"
+  },
+
+  "apkInstaller_installing": "正在安装: {name}",
+  "@apkInstaller_installing": {
+    "description": "正在安装状态",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "app.apk"
+      }
+    }
+  },
+
+  "search_hint": "搜索工具名称或描述...",
+  "@search_hint": {
+    "description": "搜索框提示"
+  },
+
+  "search_inputKeyword": "输入关键词搜索工具",
+  "@search_inputKeyword": {
+    "description": "输入关键词搜索提示"
+  },
+
+  "search_searchNameOrDesc": "可搜索工具名称或描述",
+  "@search_searchNameOrDesc": {
+    "description": "可搜索工具名称或描述"
+  },
+
+  "search_noResults": "未找到相关工具",
+  "@search_noResults": {
+    "description": "未找到相关工具"
+  },
+
+  "search_tryOtherKeywords": "尝试使用其他关键词",
+  "@search_tryOtherKeywords": {
+    "description": "尝试使用其他关键词"
+  },
+
+  "search_open": "打开",
+  "@search_open": {
+    "description": "打开按钮"
+  },
+
+  "search_back": "返回",
+  "@search_back": {
+    "description": "返回按钮提示"
+  },
+
+  "search_clear": "清除",
+  "@search_clear": {
+    "description": "清除按钮提示"
+  },
+
+  "toolbox_freeToolbox": "FREE工具箱",
+  "@toolbox_freeToolbox": {
+    "description": "工具箱标题"
+  },
+
+  "toolbox_collapseSidebar": "折叠侧边栏",
+  "@toolbox_collapseSidebar": {
+    "description": "折叠侧边栏提示"
+  },
+
+  "toolbox_expandSidebar": "展开侧边栏",
+  "@toolbox_expandSidebar": {
+    "description": "展开侧边栏提示"
+  },
+
+  "toolbox_home": "首页",
+  "@toolbox_home": {
+    "description": "工具箱首页按钮"
+  },
+
+  "toolbox_toolLibrary": "工具库",
+  "@toolbox_toolLibrary": {
+    "description": "工具库按钮"
+  },
+
+  "toolbox_programCategories": "程序分类",
+  "@toolbox_programCategories": {
+    "description": "程序分类标签"
+  },
+
+  "toolbox_addProgram": "添加程序",
+  "@toolbox_addProgram": {
+    "description": "添加程序按钮"
+  },
+
+  "hardware_realtimeMonitor": "实时监控",
+  "@hardware_realtimeMonitor": {
+    "description": "实时监控标题"
+  },
+
+  "hardware_systemInfo": "系统信息",
+  "@hardware_systemInfo": {
+    "description": "系统信息标题"
+  },
+
+  "hardware_computerInfo": "计算机信息",
+  "@hardware_computerInfo": {
+    "description": "计算机信息标题"
+  },
+
+  "hardware_cpuInfo": "CPU 信息",
+  "@hardware_cpuInfo": {
+    "description": "CPU信息标题"
+  },
+
+  "hardware_memoryInfo": "内存信息",
+  "@hardware_memoryInfo": {
+    "description": "内存信息标题"
+  },
+
+  "hardware_diskInfo": "磁盘 {drive}",
+  "@hardware_diskInfo": {
+    "description": "磁盘信息标题",
+    "placeholders": {
+      "drive": {
+        "type": "String",
+        "example": "C:"
+      }
+    }
+  },
+
+  "hardware_gpuInfo": "GPU",
+  "@hardware_gpuInfo": {
+    "description": "GPU信息标题"
+  },
+
+  "hardware_networkInfo": "网络 {interface}",
+  "@hardware_networkInfo": {
+    "description": "网络信息标题",
+    "placeholders": {
+      "interface": {
+        "type": "String",
+        "example": "Ethernet"
+      }
+    }
+  },
+
+  "hardware_loadFailed": "加载硬件信息失败",
+  "@hardware_loadFailed": {
+    "description": "加载硬件信息失败"
+  },
+
+  "hardware_osName": "操作系统",
+  "@hardware_osName": {
+    "description": "操作系统标签"
+  },
+
+  "hardware_osVersion": "版本",
+  "@hardware_osVersion": {
+    "description": "版本标签"
+  },
+
+  "hardware_osBuild": "构建号",
+  "@hardware_osBuild": {
+    "description": "构建号标签"
+  },
+
+  "hardware_architecture": "架构",
+  "@hardware_architecture": {
+    "description": "架构标签"
+  },
+
+  "hardware_computerName": "计算机名",
+  "@hardware_computerName": {
+    "description": "计算机名标签"
+  },
+
+  "hardware_userName": "用户名",
+  "@hardware_userName": {
+    "description": "用户名标签"
+  },
+
+  "hardware_manufacturer": "制造商",
+  "@hardware_manufacturer": {
+    "description": "制造商标签"
+  },
+
+  "hardware_model": "型号",
+  "@hardware_model": {
+    "description": "型号标签"
+  },
+
+  "hardware_productName": "产品名称",
+  "@hardware_productName": {
+    "description": "产品名称标签"
+  },
+
+  "hardware_biosVersion": "BIOS版本",
+  "@hardware_biosVersion": {
+    "description": "BIOS版本标签"
+  },
+
+  "hardware_baseboardManufacturer": "主板制造商",
+  "@hardware_baseboardManufacturer": {
+    "description": "主板制造商标签"
+  },
+
+  "hardware_baseboardProduct": "主板产品",
+  "@hardware_baseboardProduct": {
+    "description": "主板产品标签"
+  },
+
+  "hardware_coresThreads": "{cores}核 / {threads}线程",
+  "@hardware_coresThreads": {
+    "description": "核心/线程",
+    "placeholders": {
+      "cores": {
+        "type": "int",
+        "format": "compact"
+      },
+      "threads": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "hardware_maxFrequency": "最大频率",
+  "@hardware_maxFrequency": {
+    "description": "最大频率标签"
+  },
+
+  "hardware_l2Cache": "L2缓存",
+  "@hardware_l2Cache": {
+    "description": "L2缓存标签"
+  },
+
+  "hardware_l3Cache": "L3缓存",
+  "@hardware_l3Cache": {
+    "description": "L3缓存标签"
+  },
+
+  "hardware_totalCapacity": "总容量",
+  "@hardware_totalCapacity": {
+    "description": "总容量标签"
+  },
+
+  "hardware_available": "可用",
+  "@hardware_available": {
+    "description": "可用标签"
+  },
+
+  "hardware_used": "已用",
+  "@hardware_used": {
+    "description": "已用标签"
+  },
+
+  "hardware_usageRate": "使用率",
+  "@hardware_usageRate": {
+    "description": "使用率标签"
+  },
+
+  "hardware_frequency": "频率",
+  "@hardware_frequency": {
+    "description": "频率标签"
+  },
+
+  "hardware_channels": "通道数",
+  "@hardware_channels": {
+    "description": "通道数标签"
+  },
+
+  "hardware_fileSystem": "文件系统",
+  "@hardware_fileSystem": {
+    "description": "文件系统标签"
+  },
+
+  "hardware_driverVersion": "驱动版本",
+  "@hardware_driverVersion": {
+    "description": "驱动版本标签"
+  },
+
+  "hardware_videoMemory": "显存",
+  "@hardware_videoMemory": {
+    "description": "显存标签"
+  },
+
+  "hardware_memoryType": "显存类型",
+  "@hardware_memoryType": {
+    "description": "显存类型标签"
+  },
+
+  "hardware_ipAddress": "IP地址",
+  "@hardware_ipAddress": {
+    "description": "IP地址标签"
+  },
+
+  "hardware_ipv6Address": "IPv6地址",
+  "@hardware_ipv6Address": {
+    "description": "IPv6地址标签"
+  },
+
+  "hardware_macAddress": "MAC地址",
+  "@hardware_macAddress": {
+    "description": "MAC地址标签"
+  },
+
+  "hardware_subnetMask": "子网掩码",
+  "@hardware_subnetMask": {
+    "description": "子网掩码标签"
+  },
+
+  "hardware_gateway": "网关",
+  "@hardware_gateway": {
+    "description": "网关标签"
+  },
+
+  "hardware_dns": "DNS",
+  "@hardware_dns": {
+    "description": "DNS标签"
+  },
+
+  "hardware_runningProcesses": "运行进程",
+  "@hardware_runningProcesses": {
+    "description": "运行进程标签"
+  },
+
+  "hardware_diskRead": "磁盘读取",
+  "@hardware_diskRead": {
+    "description": "磁盘读取标签"
+  },
+
+  "hardware_diskWrite": "磁盘写入",
+  "@hardware_diskWrite": {
+    "description": "磁盘写入标签"
+  },
+
+  "hardware_uploadSpeed": "上传速度",
+  "@hardware_uploadSpeed": {
+    "description": "上传速度标签"
+  },
+
+  "hardware_downloadSpeed": "下载速度",
+  "@hardware_downloadSpeed": {
+    "description": "下载速度标签"
+  },
+
+  "hardware_uptime": "运行时间",
+  "@hardware_uptime": {
+    "description": "运行时间标签"
+  },
+
+  "imageClassifier_title": "图像分类器",
+  "@imageClassifier_title": {
+    "description": "图像分类器标题"
+  },
+
+  "imageClassifier_modelSelection": "模型选择",
+  "@imageClassifier_modelSelection": {
+    "description": "模型选择标题"
+  },
+
+  "imageClassifier_selectModelFile": "选择模型文件 (.onnx / .tflite)",
+  "@imageClassifier_selectModelFile": {
+    "description": "选择模型文件提示"
+  },
+
+  "imageClassifier_releaseModel": "释放模型",
+  "@imageClassifier_releaseModel": {
+    "description": "释放模型提示"
+  },
+
+  "imageClassifier_modelInfo": "信息",
+  "@imageClassifier_modelInfo": {
+    "description": "模型信息按钮"
+  },
+
+  "imageClassifier_loadingModel": "正在加载模型，请稍候...",
+  "@imageClassifier_loadingModel": {
+    "description": "正在加载模型提示"
+  },
+
+  "imageClassifier_pretrainedModels": "预训练模型（需下载模型文件）:",
+  "@imageClassifier_pretrainedModels": {
+    "description": "预训练模型提示"
+  },
+
+  "imageClassifier_imageSelection": "图片选择",
+  "@imageClassifier_imageSelection": {
+    "description": "图片选择标题"
+  },
+
+  "imageClassifier_addImage": "添加图片",
+  "@imageClassifier_addImage": {
+    "description": "添加图片按钮"
+  },
+
+  "imageClassifier_addDirectory": "添加目录",
+  "@imageClassifier_addDirectory": {
+    "description": "添加目录按钮"
+  },
+
+  "imageClassifier_sort": "排序",
+  "@imageClassifier_sort": {
+    "description": "排序按钮"
+  },
+
+  "imageClassifier_classified": "已分类",
+  "@imageClassifier_classified": {
+    "description": "已分类状态"
+  },
+
+  "imageClassifier_pleaseAddImages": "请添加图片进行分类",
+  "@imageClassifier_pleaseAddImages": {
+    "description": "请添加图片提示"
+  },
+
+  "imageClassifier_classificationConfig": "分类配置",
+  "@imageClassifier_classificationConfig": {
+    "description": "分类配置标题"
+  },
+
+  "imageClassifier_confidenceThreshold": "置信度阈值",
+  "@imageClassifier_confidenceThreshold": {
+    "description": "置信度阈值标签"
+  },
+
+  "imageClassifier_batchSize": "批量大小",
+  "@imageClassifier_batchSize": {
+    "description": "批量大小标签"
+  },
+
+  "imageClassifier_startClassification": "开始分类",
+  "@imageClassifier_startClassification": {
+    "description": "开始分类按钮"
+  },
+
+  "imageClassifier_classifying": "分类中...",
+  "@imageClassifier_classifying": {
+    "description": "分类中状态"
+  },
+
+  "imageClassifier_totalImages": "总图片数",
+  "@imageClassifier_totalImages": {
+    "description": "总图片数标签"
+  },
+
+  "imageClassifier_processed": "已处理",
+  "@imageClassifier_processed": {
+    "description": "已处理标签"
+  },
+
+  "imageClassifier_successRate": "成功率",
+  "@imageClassifier_successRate": {
+    "description": "成功率标签"
+  },
+
+  "imageClassifier_noResults": "暂无分类结果",
+  "@imageClassifier_noResults": {
+    "description": "暂无分类结果"
+  },
+
+  "imageClassifier_selectAndClassify": "选择图片并点击\"开始分类\"进行推理",
+  "@imageClassifier_selectAndClassify": {
+    "description": "选择图片并分类提示"
+  },
+
+  "imageClassifier_classificationResults": "分类结果",
+  "@imageClassifier_classificationResults": {
+    "description": "分类结果标题"
+  },
+
+  "imageClassifier_sortMethod": "排序方式",
+  "@imageClassifier_sortMethod": {
+    "description": "排序方式对话框标题"
+  },
+
+  "imageClassifier_nameAsc": "文件名升序",
+  "@imageClassifier_nameAsc": {
+    "description": "文件名升序"
+  },
+
+  "imageClassifier_nameDesc": "文件名降序",
+  "@imageClassifier_nameDesc": {
+    "description": "文件名降序"
+  },
+
+  "imageClassifier_pathAsc": "路径升序",
+  "@imageClassifier_pathAsc": {
+    "description": "路径升序"
+  },
+
+  "imageClassifier_pathDesc": "路径降序",
+  "@imageClassifier_pathDesc": {
+    "description": "路径降序"
+  },
+
+  "imageClassifier_exportResults": "导出结果",
+  "@imageClassifier_exportResults": {
+    "description": "导出结果对话框标题"
+  },
+
+  "imageClassifier_exportCsv": "导出为 CSV",
+  "@imageClassifier_exportCsv": {
+    "description": "导出为CSV"
+  },
+
+  "imageClassifier_exportCsvDesc": "表格格式，可用 Excel 打开",
+  "@imageClassifier_exportCsvDesc": {
+    "description": "导出CSV描述"
+  },
+
+  "imageClassifier_exportJson": "导出为 JSON",
+  "@imageClassifier_exportJson": {
+    "description": "导出为JSON"
+  },
+
+  "imageClassifier_exportJsonDesc": "结构化数据格式",
+  "@imageClassifier_exportJsonDesc": {
+    "description": "导出JSON描述"
+  },
+
+  "imageClassifier_copyToClipboard": "复制到剪贴板",
+  "@imageClassifier_copyToClipboard": {
+    "description": "复制到剪贴板"
+  },
+
+  "imageClassifier_copyToClipboardDesc": "复制 JSON 格式到剪贴板",
+  "@imageClassifier_copyToClipboardDesc": {
+    "description": "复制到剪贴板描述"
+  },
+
+  "imageClassifier_copiedToClipboard": "已复制到剪贴板",
+  "@imageClassifier_copiedToClipboard": {
+    "description": "已复制到剪贴板提示"
+  },
+
+  "imageClassifier_exportFailed": "导出失败",
+  "@imageClassifier_exportFailed": {
+    "description": "导出失败"
+  },
+
+  "imageClassifier_selectedImages": "已选择 {count} 张图片",
+  "@imageClassifier_selectedImages": {
+    "description": "已选择图片数量",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "imageClassifier_inputSize": "输入尺寸",
+  "@imageClassifier_inputSize": {
+    "description": "输入尺寸标签"
+  },
+
+  "imageClassifier_accuracy": "精度",
+  "@imageClassifier_accuracy": {
+    "description": "精度标签"
+  },
+
+  "imageClassifier_category": "类别",
+  "@imageClassifier_category": {
+    "description": "类别标签"
+  },
+
+  "imageClassifier_backend": "后端",
+  "@imageClassifier_backend": {
+    "description": "后端标签"
+  },
+
+  "imageClassifier_params": "参数",
+  "@imageClassifier_params": {
+    "description": "参数标签"
+  },
+
+  "imageClassifier_speed": "速度",
+  "@imageClassifier_speed": {
+    "description": "速度标签"
+  },
+
+  "imageClassifier_useCase": "适用场景",
+  "@imageClassifier_useCase": {
+    "description": "适用场景标签"
+  },
+
+  "imageClassifier_paramsCount": "参数量",
+  "@imageClassifier_paramsCount": {
+    "description": "参数量标签"
+  },
+
+  "imageClassifier_classifyingStatus": "分类中: {text}",
+  "@imageClassifier_classifyingStatus": {
+    "description": "分类中状态文本",
+    "placeholders": {
+      "text": {
+        "type": "String",
+        "example": "1/10"
+      }
+    }
+  },
+
+  "imageClassifier_modelLabel": "模型: {name}",
+  "@imageClassifier_modelLabel": {
+    "description": "模型标签",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "MobileNet"
+      }
+    }
+  },
+
+  "imageClassifier_classLabel": "类别: {className} | 置信度: {confidence}%",
+  "@imageClassifier_classLabel": {
+    "description": "分类结果标签",
+    "placeholders": {
+      "className": {
+        "type": "String",
+        "example": "cat"
+      },
+      "confidence": {
+        "type": "String",
+        "example": "95.3"
+      }
+    }
+  },
+
+  "imageClassifier_errorLabel": "错误: {error}",
+  "@imageClassifier_errorLabel": {
+    "description": "错误标签",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Model not found"
+      }
+    }
+  },
+
+  "imageClassifier_unknownError": "未知错误",
+  "@imageClassifier_unknownError": {
+    "description": "未知错误"
+  },
+
+  "imageClassifier_exportedToCsv": "已导出 {count} 条结果到 CSV",
+  "@imageClassifier_exportedToCsv": {
+    "description": "已导出CSV提示",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "imageClassifier_exportedToJson": "已导出 {count} 条结果到 JSON",
+  "@imageClassifier_exportedToJson": {
+    "description": "已导出JSON提示",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "imageClassifier_resultsCopied": "结果已复制到剪贴板",
+  "@imageClassifier_resultsCopied": {
+    "description": "结果已复制到剪贴板"
+  },
+
+  "remove": "移除",
+  "@remove": {
+    "description": "移除操作"
+  },
+
+  "addRule": "添加规则",
+  "@addRule": {
+    "description": "添加规则提示"
+  },
+
+  "previewStatus_pending": "{count} 待处理",
+  "@previewStatus_pending": {
+    "description": "待处理状态",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "previewStatus_success": "{count} 成功",
+  "@previewStatus_success": {
+    "description": "成功状态",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "previewStatus_failed": "{count} 失败",
+  "@previewStatus_failed": {
+    "description": "失败状态",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "generatingPreview": "正在生成预览...",
+  "@generatingPreview": {
+    "description": "正在生成预览"
+  },
+
+  "noPreview": "暂无预览",
+  "@noPreview": {
+    "description": "暂无预览"
+  },
+
+  "scanThenPreview": "请先扫描目录，然后添加规则并点击预览",
+  "@scanThenPreview": {
+    "description": "请先扫描目录提示"
+  },
+
+  "addRuleThenPreview": "请添加规则并点击预览按钮",
+  "@addRuleThenPreview": {
+    "description": "请添加规则并预览提示"
+  }
+}

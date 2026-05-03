@@ -1,0 +1,420 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "AI Apps Toolkit",
+  "@appTitle": {
+    "description": "Application title"
+  },
+
+  "home": "Home",
+  "@home": {
+    "description": "Home navigation tab"
+  },
+
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings page title"
+  },
+
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading state hint"
+  },
+
+  "error": "Error",
+  "@error": {
+    "description": "Error message"
+  },
+
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry action"
+  },
+
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel action"
+  },
+
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm action"
+  },
+
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete action"
+  },
+
+  "save": "Save",
+  "@save": {
+    "description": "Save action"
+  },
+
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit action"
+  },
+
+  "search": "Search",
+  "@search": {
+    "description": "Search action"
+  },
+
+  "noData": "No data available",
+  "@noData": {
+    "description": "Empty data hint"
+  },
+
+  "networkError": "Network error",
+  "@networkError": {
+    "description": "Network error message"
+  },
+
+  "pageNotFound": "Page not found",
+  "@pageNotFound": {
+    "description": "404 page hint"
+  },
+
+  "backToHome": "Back to Home",
+  "@backToHome": {
+    "description": "Back to home button"
+  },
+
+  "ok": "OK",
+  "@ok": {
+    "description": "OK button"
+  },
+
+  "close": "Close",
+  "@close": {
+    "description": "Close action"
+  },
+
+  "add": "Add",
+  "@add": {
+    "description": "Add action"
+  },
+
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh action"
+  },
+
+  "select_all": "Select All",
+  "@select_all": {
+    "description": "Select all action"
+  },
+
+  "export": "Export",
+  "@export": {
+    "description": "Export action"
+  },
+
+  "import": "Import",
+  "@import": {
+    "description": "Import action"
+  },
+
+  "ready": "Ready",
+  "@ready": {
+    "description": "Ready state"
+  },
+
+  "warning": "Warning",
+  "@warning": {
+    "description": "Warning message"
+  },
+
+  "success": "Success",
+  "@success": {
+    "description": "Success message"
+  },
+
+  "info": "Info",
+  "@info": {
+    "description": "Info message"
+  },
+
+  "yes": "Yes",
+  "@yes": {
+    "description": "Affirmative answer"
+  },
+
+  "no": "No",
+  "@no": {
+    "description": "Negative answer"
+  },
+
+  "apply": "Apply",
+  "@apply": {
+    "description": "Apply action"
+  },
+
+  "tools": "Tools",
+  "@tools": {
+    "description": "Tools category"
+  },
+
+  "help": "Help",
+  "@help": {
+    "description": "Help"
+  },
+
+  "about": "About",
+  "@about": {
+    "description": "About page"
+  },
+
+  "exit": "Exit",
+  "@exit": {
+    "description": "Exit action"
+  },
+
+  "file": "File",
+  "@file": {
+    "description": "File"
+  },
+
+  "view": "View",
+  "@view": {
+    "description": "View"
+  },
+
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme setting"
+  },
+
+  "light_mode": "Light Mode",
+  "@light_mode": {
+    "description": "Light theme mode"
+  },
+
+  "dark_mode": "Dark Mode",
+  "@dark_mode": {
+    "description": "Dark theme mode"
+  },
+
+  "follow_system": "Follow System",
+  "@follow_system": {
+    "description": "Follow system theme"
+  },
+
+  "recent": "Recent",
+  "@recent": {
+    "description": "Recently used"
+  },
+
+  "favorites": "Favorites",
+  "@favorites": {
+    "description": "Favorites"
+  },
+
+  "all": "All",
+  "@all": {
+    "description": "All"
+  },
+
+  "name": "Name",
+  "@name": {
+    "description": "Name field"
+  },
+
+  "description": "Description",
+  "@description": {
+    "description": "Description field"
+  },
+
+  "status": "Status",
+  "@status": {
+    "description": "Status field"
+  },
+
+  "action": "Action",
+  "@action": {
+    "description": "Action field"
+  },
+
+  "time": "Time",
+  "@time": {
+    "description": "Time field"
+  },
+
+  "size": "Size",
+  "@size": {
+    "description": "Size field"
+  },
+
+  "type": "Type",
+  "@type": {
+    "description": "Type field"
+  },
+
+  "path": "Path",
+  "@path": {
+    "description": "Path field"
+  },
+
+  "progress": "Progress",
+  "@progress": {
+    "description": "Progress"
+  },
+
+  "completed": "Completed",
+  "@completed": {
+    "description": "Completed state"
+  },
+
+  "failed": "Failed",
+  "@failed": {
+    "description": "Failed state"
+  },
+
+  "version": "Version",
+  "@version": {
+    "description": "Version info"
+  },
+
+  "update": "Update",
+  "@update": {
+    "description": "Update action"
+  },
+
+  "download": "Download",
+  "@download": {
+    "description": "Download action"
+  },
+
+  "install": "Install",
+  "@install": {
+    "description": "Install action"
+  },
+
+  "check_update": "Check for Updates",
+  "@check_update": {
+    "description": "Check for updates action"
+  },
+
+  "no_update": "No Updates Available",
+  "@no_update": {
+    "description": "No updates available"
+  },
+
+  "new_version_available": "New Version Available",
+  "@new_version_available": {
+    "description": "New version available"
+  },
+
+  "already_latest": "Already on Latest Version",
+  "@already_latest": {
+    "description": "Already on latest version"
+  },
+
+  "hello_name": "Hello, {name}!",
+  "@hello_name": {
+    "description": "Greeting with name",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "User"
+      }
+    }
+  },
+
+  "item_count": "{count} items",
+  "@item_count": {
+    "description": "Item count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+
+  "migration_title": "Data Migration",
+  "@migration_title": {
+    "description": "Data migration title"
+  },
+
+  "migration_detecting": "Detecting legacy data...",
+  "@migration_detecting": {
+    "description": "Detecting legacy data in progress"
+  },
+
+  "migration_found": "Legacy data found. Migrate now?",
+  "@migration_found": {
+    "description": "Legacy data found prompt"
+  },
+
+  "migration_in_progress": "Migrating data...",
+  "@migration_in_progress": {
+    "description": "Migration in progress"
+  },
+
+  "migration_success": "Data migration completed",
+  "@migration_success": {
+    "description": "Migration successful"
+  },
+
+  "migration_failed": "Data migration failed",
+  "@migration_failed": {
+    "description": "Migration failed"
+  },
+
+  "migration_backup": "Backing up legacy data...",
+  "@migration_backup": {
+    "description": "Backing up legacy data in progress"
+  },
+
+  "migration_skip": "Skip Migration",
+  "@migration_skip": {
+    "description": "Skip migration action"
+  },
+
+  "migration_start": "Start Migration",
+  "@migration_start": {
+    "description": "Start migration action"
+  },
+
+  "migration_config": "Migrate Config",
+  "@migration_config": {
+    "description": "Migrate config item"
+  },
+
+  "migration_programs": "Migrate Programs",
+  "@migration_programs": {
+    "description": "Migrate programs item"
+  },
+
+  "migration_categories": "Migrate Categories",
+  "@migration_categories": {
+    "description": "Migrate categories item"
+  },
+
+  "migration_themes": "Migrate Themes",
+  "@migration_themes": {
+    "description": "Migrate themes item"
+  },
+
+  "migration_verify": "Verifying migration data...",
+  "@migration_verify": {
+    "description": "Verifying migration data in progress"
+  },
+
+  "migration_verify_pass": "Migration verification passed",
+  "@migration_verify_pass": {
+    "description": "Verification passed"
+  },
+
+  "migration_verify_fail": "Migration verification failed, data entry count mismatch",
+  "@migration_verify_fail": {
+    "description": "Verification failed"
+  }
+}
