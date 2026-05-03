@@ -1,12 +1,12 @@
-# 🚀 AI App - 跨平台智能工具集
+# 🚀 FlutterBox - Flutter效率工具箱
 > **你的瑞士军刀！高效、免费、无广告！** ✨
 
-[![Flutter CI](https://github.com/FREE-AI-APP/ai_app/actions/workflows/flutter-ci.yml/badge.svg)](https://github.com/FREE-AI-APP/ai_app/actions/workflows/flutter-ci.yml)
+[![Flutter CI](https://github.com/Doro2047/FlutterBox/actions/workflows/flutter-ci.yml/badge.svg)](https://github.com/Doro2047/FlutterBox/actions/workflows/flutter-ci.yml)
 [![Flutter Version](https://img.shields.io/badge/flutter-%3E%3D3.41.0-blue?logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart Version](https://img.shields.io/badge/dart-%3E%3D3.11.0-blue?logo=dart&logoColor=white)](https://dart.dev)
 [![Platform](https://img.shields.io/badge/platform-windows%20%7C%20android%20%7C%20web-orange?logo=windows&logoColor=white)](https://flutter.dev)
 [![License](https://img.shields.io/badge/license-MIT-green?logo=mit&logoColor=white)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/Doro2047/ai_app?style=social)](https://github.com/Doro2047/ai_app)
+[![GitHub Stars](https://img.shields.io/github/stars/Doro2047/FlutterBox?style=social)](https://github.com/Doro2047/FlutterBox)
 
 一套基于 Flutter 的跨平台桌面/移动工具集，提供文件管理、系统控制、书签管理、APK 安装等实用功能。**支持多种主题、暗色模式、跨平台！** 🎨
 
@@ -121,8 +121,8 @@ ai_app/
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/FREE-AI-APP/ai_app.git
-   cd ai_app
+   git clone https://github.com/Doro2047/FlutterBox.git
+   cd FlutterBox
    ```
 
 2. **安装依赖**

@@ -108,7 +108,7 @@
 
 ## 💡 如何参与
 
-1. 查看 [Issues](https://github.com/Doro2047/ai_app/issues) 寻找可帮助的任务
+1. 查看 [Issues](https://github.com/Doro2047/FlutterBox/issues) 寻找可帮助的任务
 2. 提交 PR 解决现有问题
 3. 提出新的功能建议
 

@@ -9,7 +9,7 @@
 你可以通过以下方式贡献：
 
 ### 1. 报告 Bug 🐛
-- 在 [Issues](https://github.com/Doro2047/ai_app/issues) 中创建 Issue
+- 在 [Issues](https://github.com/Doro2047/FlutterBox/issues) 中创建 Issue
 - 使用 bug 模板
 - 包含复现步骤和环境信息
 
@@ -34,8 +34,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/FREE-AI-APP/ai_app.git
-cd ai_app
+git clone https://github.com/Doro2047/FlutterBox.git
+cd FlutterBox
 ```
 
 ### 2. 安装依赖
@@ -181,7 +181,7 @@ develop (开发) ─┐
 
 ## 报告问题
 
-如果你遇到 bug 或有功能建议，请创建 [Issue](https://github.com/FREE-AI-APP/ai_app/issues)。
+如果你遇到 bug 或有功能建议，请创建 [Issue](https://github.com/Doro2047/FlutterBox/issues)。
 
 ### Bug 报告模板
 
