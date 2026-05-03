@@ -1,0 +1,116 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/.last_build_id
+ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage*
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Coverage
+coverage/
+
+# Testing
+*.moor.dart
+
+# MacOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+
+# Windows
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+windows/flutter/generated_plugins.cmake
+
+# Linux
+linux/flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+linux/flutter/generated_plugins.cmake
+
+# Web
+web/version.json
+
+# Hive
+*.hive
+*.lock
+
+# Env files
+.env
+.env.*
+
+# Local configuration
+android/local.properties
+*.metadata
+
+# IDE
+*.iml
+apps/*/.idea/
+packages/*/.idea/
+
+# Build artifacts (sub-projects)
+apps/*/build/
+apps/*/flutter_0*.log
+
+# Release binaries
+release/
+
+# Flutter SDK (should not be committed)
+flutter/
+
+# Dart/Flutter tooling
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
