@@ -1,38 +1,53 @@
-# AI App - 跨平台智能工具集
+# 🚀 AI App - 跨平台智能工具集
+> **你的瑞士军刀！高效、免费、无广告！** ✨
 
 [![Flutter CI](https://github.com/FREE-AI-APP/ai_app/actions/workflows/flutter-ci.yml/badge.svg)](https://github.com/FREE-AI-APP/ai_app/actions/workflows/flutter-ci.yml)
-[![Flutter Version](https://img.shields.io/badge/flutter-%3E%3D3.41.0-blue)](https://flutter.dev)
-[![Dart Version](https://img.shields.io/badge/dart-%3E%3D3.11.0-blue)](https://dart.dev)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Flutter Version](https://img.shields.io/badge/flutter-%3E%3D3.41.0-blue?logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart Version](https://img.shields.io/badge/dart-%3E%3D3.11.0-blue?logo=dart&logoColor=white)](https://dart.dev)
+[![Platform](https://img.shields.io/badge/platform-windows%20%7C%20android%20%7C%20web-orange?logo=windows&logoColor=white)](https://flutter.dev)
+[![License](https://img.shields.io/badge/license-MIT-green?logo=mit&logoColor=white)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Doro2047/ai_app?style=social)](https://github.com/Doro2047/ai_app)
 
-一套基于 Flutter 的跨平台桌面/移动工具集，提供文件管理、系统控制、书签管理、APK 安装等实用功能。
+一套基于 Flutter 的跨平台桌面/移动工具集，提供文件管理、系统控制、书签管理、APK 安装等实用功能。**支持多种主题、暗色模式、跨平台！** 🎨
 
 ---
 
-## 功能特性
+## ✨ 核心亮点
 
-### 文件管理工具
-| 工具 | 功能描述 |
-|------|---------|
-| 文件扫描 | 递归扫描目录，按类型/大小/日期筛选文件 |
-| 文件去重 | 基于 MD5/SHA 哈希值的重复文件检测与清理 |
-| 文件重命名 | 支持正则表达式、批量规则替换的文件重命名 |
-| 文件移动 | 按规则批量移动文件到目标目录 |
-| 扩展名修改 | 批量修改文件扩展名，支持预览确认 |
+- 🚀 **极速启动** - 优化的加载机制，秒开即用
+- 🎨 **精美主题** - 8种预设主题 + 暗色模式，颜值在线
+- 🌍 **跨平台** - 支持 Windows、Android、Web 平台
+- 🛠️ **一站式** - 10+ 实用工具，满足日常需求
+- 🔒 **安全免费** - 无广告、无追踪、开源透明
+- 📦 **即用即走** - 单文件可执行，无需安装
+- 💡 **持续更新** - 活跃社区，定期添加新工具
 
-### 系统工具
-| 工具 | 功能描述 |
-|------|---------|
-| 系统控制 | Windows 电源管理、网络配置（关机/重启/休眠等） |
-| APK 安装器 | 通过 ADB 安装 Android 应用包 |
-| 书签管理 | 解析 Chrome/Edge 书签文件，验证链接有效性 |
+---
 
-### 其他功能
-| 工具 | 功能描述 |
-|------|---------|
-| 图像分类 | AI 驱动的图像自动分类与标签管理 |
-| 工具箱 | 已安装程序的管理和快捷入口 |
-| 全局搜索 | 跨工具搜索和快速导航 |
+## 📦 功能特性
+
+### 📁 文件管理工具
+| 工具 | 功能描述 | 图标 |
+|------|---------|------|
+| 文件扫描 | 🔍 递归扫描目录，按类型/大小/日期筛选文件 | 🔍 |
+| 文件去重 | 🧹 基于 MD5/SHA 哈希值的重复文件检测与清理 | 🧹 |
+| 文件重命名 | ✏️ 支持正则表达式、批量规则替换的文件重命名 | ✏️ |
+| 文件移动 | 📂 按规则批量移动文件到目标目录 | 📂 |
+| 扩展名修改 | 🔄 批量修改文件扩展名，支持预览确认 | 🔄 |
+
+### ⚙️ 系统工具
+| 工具 | 功能描述 | 图标 |
+|------|---------|------|
+| 系统控制 | ⏱️ Windows 电源管理、网络配置（关机/重启/休眠等） | ⏱️ |
+| APK 安装器 | 📱 通过 ADB 安装 Android 应用包 | 📱 |
+| 书签管理 | 📑 解析 Chrome/Edge 书签文件，验证链接有效性 | 📑 |
+
+### 🎯 其他功能
+| 工具 | 功能描述 | 图标 |
+|------|---------|------|
+| 图像分类 | 🤖 AI 驱动的图像自动分类与标签管理 | 🤖 |
+| 工具箱 | 🎛️ 已安装程序的管理和快捷入口 | 🎛️ |
+| 全局搜索 | 🔎 跨工具搜索和快速导航 | 🔎 |
 
 ---
 
@@ -217,8 +232,19 @@ flutter test integration_test/app_test.dart
 
 ---
 
+## ⭐ 支持我们
+
+如果你觉得这个项目对你有帮助，请：
+- 🌟 给项目点个 Star
+- 📢 分享给你的朋友
+- 💬 在 Issues 中反馈你的想法
+
+你的支持是我们持续更新的动力！
+
+---
+
 ## 相关链接
 
-- [项目仓库](https://github.com/FREE-AI-APP/ai_app)
+- [项目仓库](https://github.com/Doro2047/ai_app)
 - [Flutter 官方文档](https://docs.flutter.dev)
 - [BLoC 文档](https://bloclibrary.dev)
