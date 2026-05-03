@@ -1,0 +1,27 @@
+name: file_scanner
+description: "File Scanner - A standalone Flutter Windows desktop application for scanning and analyzing files."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.11.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_core:
+    path: ../../packages/shared_core
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  file_picker: ^6.1.1
+  hive_flutter: ^1.1.0
+  get_it: ^7.6.4
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
