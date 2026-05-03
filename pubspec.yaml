@@ -1,8 +1,8 @@
-name: ai_app
-description: AI Apps 工具集 - Flutter 跨平台版本
+name: flutter_box
+description: FlutterBox - Flutter效率工具箱 | 一款基于Flutter的跨平台桌面/移动工具集
 publish_to: 'none'
-homepage: 'https://github.com/FREE-AI-APP/ai_app'
-repository: 'https://github.com/FREE-AI-APP/ai_app'
+homepage: 'https://github.com/Doro2047/FlutterBox'
+repository: 'https://github.com/Doro2047/FlutterBox'
 
 version: 3.0.0+1
 
