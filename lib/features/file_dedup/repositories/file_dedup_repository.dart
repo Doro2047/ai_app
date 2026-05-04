@@ -168,6 +168,7 @@ class FileDedupRepository {
   /// 计算单个文件的哈希值
   ///
   /// 此方法可以在 Isolate 中安全调用
+  /// 使用流式处理以支持大文件
   static Future<FileHashResult> computeFileHash(String filePath, {String hashType = 'md5'}) async {
     final file = File(filePath);
     if (!await file.exists()) {
@@ -175,21 +176,7 @@ class FileDedupRepository {
     }
 
     final stat = await file.stat();
-    final bytes = await file.readAsBytes();
-
-    Digest digest;
-    switch (hashType.toLowerCase()) {
-      case 'sha1':
-        digest = sha1.convert(bytes);
-        break;
-      case 'sha256':
-        digest = sha256.convert(bytes);
-        break;
-      case 'md5':
-      default:
-        digest = md5.convert(bytes);
-        break;
-    }
+    final digest = await _computeHashWithStream(file, hashType);
 
     return FileHashResult(
       path: filePath,
@@ -199,5 +186,40 @@ class FileDedupRepository {
       hashType: hashType.toLowerCase(),
       modified: stat.modified,
     );
+  }
+
+  /// 使用流式处理计算哈希值
+  ///
+  /// 支持大文件，不会一次性加载全部内容到内存
+  static Future<Digest> _computeHashWithStream(File file, String hashType) async {
+    const chunkSize = 8192; // 8KB 块大小
+    late Hash hash;
+
+    switch (hashType.toLowerCase()) {
+      case 'sha1':
+        hash = sha1;
+        break;
+      case 'sha256':
+        hash = sha256;
+        break;
+      case 'md5':
+      default:
+        hash = md5;
+        break;
+    }
+
+    final inputStream = file.openRead();
+    final outputSink = AccumulatorSink<Digest>();
+    final chunkedSink = hash.startChunkedConversion(outputSink);
+
+    try {
+      await for (final chunk in inputStream) {
+        chunkedSink.add(chunk);
+      }
+    } finally {
+      chunkedSink.close();
+    }
+
+    return outputSink.value;
   }
 }

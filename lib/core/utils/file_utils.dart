@@ -1,5 +1,8 @@
 import 'dart:io';
+import 'package:path/path.dart' as p;
 import 'package:path_provider/path_provider.dart';
+import 'app_logger.dart';
+import 'path_security.dart';
 
 /// 文件操作工具类
 /// 使用 path_provider 实现跨平台文件操作，禁止使用硬编码路径
@@ -39,8 +42,8 @@ class FileUtils {
         return await file.length();
       }
       return -1;
-    } catch (e) {
-      print('Error getting file size: $e');
+    } catch (e, stackTrace) {
+      AppLogger.logger.warning('Error getting file size: $filePath', e, stackTrace);
       return -1;
     }
   }
@@ -52,8 +55,8 @@ class FileUtils {
     try {
       final file = File(filePath);
       return await file.exists();
-    } catch (e) {
-      print('Error checking file existence: $e');
+    } catch (e, stackTrace) {
+      AppLogger.logger.warning('Error checking file existence: $filePath', e, stackTrace);
       return false;
     }
   }
@@ -61,15 +64,32 @@ class FileUtils {
   /// 创建目录
   /// 
   /// 创建指定路径的目录，recursive 参数控制是否递归创建父目录
+  /// [basePath] 可选的基路径，用于安全验证
   static Future<Directory> createDirectory(
     String dirPath, {
     bool recursive = true,
+    String? basePath,
   }) async {
     try {
-      final directory = Directory(dirPath);
+      String safePath = dirPath;
+      if (basePath != null) {
+        safePath = PathSecurity.normalizeAndValidate(dirPath, basePath);
+      }
+      
+      // 检查非法字符
+      if (PathSecurity.hasInvalidChars(safePath)) {
+        throw ArgumentError('Path contains invalid characters');
+      }
+      
+      // 检查路径长度
+      if (!PathSecurity.isValidLength(safePath)) {
+        throw ArgumentError('Path length exceeds limit');
+      }
+      
+      final directory = Directory(safePath);
       return await directory.create(recursive: recursive);
-    } catch (e) {
-      print('Error creating directory: $e');
+    } catch (e, stackTrace) {
+      AppLogger.logger.severe('Error creating directory: $dirPath', e, stackTrace);
       rethrow;
     }
   }
@@ -104,8 +124,8 @@ class FileUtils {
       }
 
       return await sourceFile.copy(destinationPath);
-    } catch (e) {
-      print('Error copying file: $e');
+    } catch (e, stackTrace) {
+      AppLogger.logger.severe('Error copying file: $sourcePath -> $destinationPath', e, stackTrace);
       rethrow;
     }
   }
@@ -138,8 +158,8 @@ class FileUtils {
       }
 
       return await sourceFile.rename(destinationPath);
-    } catch (e) {
-      print('Error moving file: $e');
+    } catch (e, stackTrace) {
+      AppLogger.logger.severe('Error moving file: $sourcePath -> $destinationPath', e, stackTrace);
       rethrow;
     }
   }
@@ -159,8 +179,8 @@ class FileUtils {
       } else if (!ignoreIfNotExists) {
         throw FileSystemException('File does not exist', filePath);
       }
-    } catch (e) {
-      print('Error deleting file: $e');
+    } catch (e, stackTrace) {
+      AppLogger.logger.severe('Error deleting file: $filePath', e, stackTrace);
       rethrow;
     }
   }
@@ -181,8 +201,8 @@ class FileUtils {
       } else if (!ignoreIfNotExists) {
         throw FileSystemException('Directory does not exist', dirPath);
       }
-    } catch (e) {
-      print('Error deleting directory: $e');
+    } catch (e, stackTrace) {
+      AppLogger.logger.severe('Error deleting directory: $dirPath', e, stackTrace);
       rethrow;
     }
   }
@@ -208,8 +228,8 @@ class FileUtils {
         }
       }
       return files;
-    } catch (e) {
-      print('Error listing files: $e');
+    } catch (e, stackTrace) {
+      AppLogger.logger.severe('Error listing files: $dirPath', e, stackTrace);
       rethrow;
     }
   }
